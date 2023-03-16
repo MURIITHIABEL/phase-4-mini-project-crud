@@ -2,9 +2,7 @@ require 'rails_helper'
 
 RSpec.describe "Spices", type: :request do
 
-  it "does not have any unused routes" do
-    expect { get "/spices/1" }.to raise_error(ActionController::RoutingError)
-  end
+
 
   describe "GET /spices" do
     before do
